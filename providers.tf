@@ -20,7 +20,7 @@ provider "aws" {
 # remote backend
 terraform {
   backend "s3" {
-    bucket         = "my-backend-devops101-terraform"
+    bucket         = "terraform-bucket-9900"
     key            = "tfstate/terraform.tfstate"
     region         = "ap-south-1"
     encrypt        = true
