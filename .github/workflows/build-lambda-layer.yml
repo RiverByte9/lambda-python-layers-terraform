@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - lambda-python-layers-terraform/layers/
+      - .
 
   workflow_dispatch:
 
